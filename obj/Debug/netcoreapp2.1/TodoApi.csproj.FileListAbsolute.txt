@@ -1,0 +1,16 @@
+/Users/alexanderacostajimenez/Documents/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.deps.json
+/Users/alexanderacostajimenez/Documents/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.runtimeconfig.json
+/Users/alexanderacostajimenez/Documents/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.runtimeconfig.dev.json
+/Users/alexanderacostajimenez/Documents/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.dll
+/Users/alexanderacostajimenez/Documents/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.pdb
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.csprojAssemblyReference.cache
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.csproj.CoreCompileInputs.cache
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.RazorAssemblyInfo.cache
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.RazorAssemblyInfo.cs
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.AssemblyInfoInputs.cache
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.AssemblyInfo.cs
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.RazorTargetAssemblyInfo.cache
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.dll
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.pdb
+/Users/alexanderacostajimenez/Documents/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.xml
+/Users/alexanderacostajimenez/Documents/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.xml
