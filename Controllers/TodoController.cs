@@ -17,7 +17,7 @@ namespace TodoApi.Controllers
 
             if (_context.TodoItems.Count() == 0)
             {
-                _context.TodoItems.Add(new TodoItem { Name = "Item1" });
+                _context.TodoItems.Add(new TodoItem { Name = "Item1", Own = "alex" });
                 _context.SaveChanges();
             }
         }
@@ -59,6 +59,7 @@ namespace TodoApi.Controllers
 
             todo.IsComplete = item.IsComplete;
             todo.Name = item.Name;
+            todo.Own = item.Own;
 
             _context.TodoItems.Update(todo);
             _context.SaveChanges();

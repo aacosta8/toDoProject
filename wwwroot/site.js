@@ -29,6 +29,7 @@ function getData() {
 
                 $('<tr><td><input disabled="true" type="checkbox" ' + checked + '></td>' +
                     '<td>' + item.name + '</td>' +
+                    '<td>' + item.own + '</td>' +
                     '<td><button onclick="editItem(' + item.id + ')">Edit</button></td>' +
                     '<td><button onclick="deleteItem(' + item.id + ')">Delete</button></td>' +
                     '</tr>').appendTo($('#todos'));
@@ -42,6 +43,7 @@ function getData() {
 function addItem() {
     const item = {
         'name': $('#add-name').val(),
+        'own': $('#add-own').val(),
         'isComplete': false
     };
 
@@ -57,6 +59,7 @@ function addItem() {
         success: function (result) {
             getData();
             $('#add-name').val('');
+            $('#add-own').val('');
         }
     });
 }
@@ -75,6 +78,7 @@ function editItem(id) {
     $.each(todos, function (key, item) {
         if (item.id === id) {
             $('#edit-name').val(item.name);
+            $('#edit-own').val(item.name);
             $('#edit-id').val(item.id);
             $('#edit-isComplete').val(item.isComplete);
         }
@@ -85,6 +89,7 @@ function editItem(id) {
 $('.my-form').on('submit', function () {
     const item = {
         'name': $('#edit-name').val(),
+        'own': $('#edit-own').val(),
         'isComplete': $('#edit-isComplete').is(':checked'),
         'id': $('#edit-id').val()
     };
